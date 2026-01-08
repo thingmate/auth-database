@@ -706,6 +706,8 @@ __metadata:
   dependencies:
     "@types/node": "npm:^25.0.3"
     "@vitest/coverage-istanbul": "npm:^4.0.16"
+    "@xstd/hex": "npm:^0.1.0"
+    "@xstd/path": "npm:^1.0.0"
     prettier: "npm:^3.7.4"
     prettier-plugin-organize-imports: "npm:^4.3.0"
     typedoc: "npm:^0.28.15"
@@ -861,6 +863,29 @@ __metadata:
     "@vitest/pretty-format": "npm:4.0.16"
     tinyrainbow: "npm:^3.0.3"
   checksum: 10c0/bba35b4e102be03e106ced227809437573aa5c5f64d512301ca8de127dcb91cbedc11a2e823305f8ba82528c909c10510ec8c7e3d92b3d6d1c1aec33e143572a
+  languageName: node
+  linkType: hard
+
+"@xstd/hex@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@xstd/hex@npm:0.1.0"
+  checksum: 10c0/372b82fe4630cfee6f8ea772b39303f3846a718aa0ab519791129bac9a7d2aa08e0b3e48b1983dafba5bb82c14396ca63f0939c3770539c04662010d31ac98a5
+  languageName: node
+  linkType: hard
+
+"@xstd/is-type@npm:^0.0.2":
+  version: 0.0.2
+  resolution: "@xstd/is-type@npm:0.0.2"
+  checksum: 10c0/ad80cc3e3a44ed0164ec6fc3a8b103f54898b1e6ab4454221f285cb4b7c1fde018b35f66c0e2194409f4dd1f9375763f321f70b0e85d9666e9d7adb98fd89c30
+  languageName: node
+  linkType: hard
+
+"@xstd/path@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@xstd/path@npm:1.0.0"
+  dependencies:
+    "@xstd/is-type": "npm:^0.0.2"
+  checksum: 10c0/96971869172a449652ab0ed3d3026fe18d27f592676b21db45c3e7d7c6f955e30e7088bc682fc3e0fec258dd00119c2ac9f19173f0c053d506d79be0d717f375
   languageName: node
   linkType: hard
 

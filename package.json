@@ -1,6 +1,6 @@
 {
   "name": "@thingmate/auth-database",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "type": "module",
   "main": "./index.js",
   "scripts": {
@@ -38,5 +38,9 @@
   "fabrique": {
     "version": "1.1.0",
     "type": "lib"
+  },
+  "dependencies": {
+    "@xstd/hex": "^0.1.0",
+    "@xstd/path": "^1.0.0"
   }
 }
